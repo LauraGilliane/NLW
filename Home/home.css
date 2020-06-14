@@ -1,0 +1,39 @@
+.cont-app-home{
+    height: 100vh;
+    background: url('../assets/icones/home-background.svg') no-repeat;
+    background-position: 35vw 4vw;
+}
+
+header>button>img{
+    width: 12%;
+}
+main {
+    flex-direction: column;
+    width: 30%;
+    height: 70vh;
+    padding-left: 20vw;
+}
+button {
+    justify-content:flex-start;
+    padding: 0;
+    cursor: pointer;
+}
+.btn-search{
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);;
+    color: #fff;
+    width: 30vw;
+    height: 6vh;
+}
+.btn-login{
+    background: transparent;
+    border: none;
+}
+figure {
+    background: #31b971;
+    height: 100%;
+    width: 20%;
+    margin: 0 7% 0 0;
+    border-radius: 5px 0 0 5px;
+}

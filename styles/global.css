@@ -1,0 +1,46 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+header {
+    height: 13vh;
+    padding: 0 10vh;
+    color: var(--title-color);
+}
+
+header > button {
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
